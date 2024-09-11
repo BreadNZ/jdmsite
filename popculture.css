@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(67, 67, 67, 1);
+}
+main{
+    padding: 0;
+    
+}
+
+
+
+/* Main Heading For All Pages */
+.title {
+    background-color: rgba(67, 67, 67, 1);
+    text-align: center;
+    padding-bottom: 7vh;
+
+}
+.title h1 {
+    margin-bottom: 5vh;
+    font-size: 9em;
+    color: rgba(205, 172, 116, 1);
+    font-family: koulen;
+}
+.title h2 {
+    margin-top: -10vh;
+    margin-bottom: 0;
+    font-size: 2.1em;
+    color: rgba(238, 199, 134, 1);      
+    font-family: koulen;
+}
+
+/* Style For NavBar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+} 
+.navbar li {
+    font-family: koulen;
+    display: flex;
+    background-color: gray;
+    float: left;
+    justify-content: center;
+    margin: 0.3em
+}
+.navbar li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
+}
+.intro {
+    background-color: rgba(217, 217, 217, 1);
+    padding: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    
+}
+.intro h1{
+    padding: 0.1em;
+    font-family: koulen;
+    font-size: 3em;  
+    padding-left: 4vw;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.intro img{
+    border-radius: 10%;
+    margin-left: 10vw;
+    width: 80%;
+    margin-top: 1vh;
+    display: inline;
+    padding-bottom: 2vh;
+}
+.intro p{
+    font-family: kosugi ;
+    font-size: 1em;
+    width: 100%;
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+.initiald {
+    background-color: rgb(208, 208, 208, 1);
+}
+.initiald h1{
+    padding-left: 4vw;
+    font-family: koulen;
+    font-size: 4em;
+}
+.initiald .red{
+    color: red;
+}
+.initiald p{
+    font-family: kosugi;
+    font-size: 1em;
+    padding: 4vw;
+}
+.initiald img{
+    width: 100%;
+}
+.fast{
+    background-color: rgba(225, 225, 225, 1);
+}
+.fast h1{
+    padding-left: 4vw;
+    font-family: koulen;
+    font-size: 2em;
+    text-align: center;
+}
+.fast p{
+    font-family: kosugi;
+    font-size: 1em;
+    padding: 4vw;
+}
+.fast img{
+    width: 100%;
+}
+.people{
+    background-color: rgba(214, 214, 214, 1);
+}
+.people h1{
+    padding-left: 4vw;
+    font-family: koulen;
+    font-size: 2em;
+    text-align: center;
+}
+.people h2{
+    font-family: koulen;
+    font-size: 2em;
+    padding-left: 5vw;
+}
+.people p{
+    font-family: kosugi;
+    font-size: 1em;
+    padding: 4vw;
+}
+.people img{
+    width: 100%;
+}
+footer{
+    background-color:rgba(67, 67, 67, 1);
+}
+footer summary{
+    font-size: 1.5em;
+    font-family: kosugi;
+    color: rgb(182, 182, 182);
+    text-align: center;
+    padding: 1em;
+}
+footer details{
+    font-family: kosugi;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1em;
+    padding-bottom: 4vh;
+}
+
+@media only screen and (min-width: 1200px) {
+    /* Style For NavBar */
+    .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: center;
+    
+        
+    } 
+    .navbar li {
+        font-family: koulen;
+        display: flex;
+        background-color: gray;
+        float: left;
+        justify-content: center;
+        margin: 0.3em;
+    }
+    .navbar li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        
+    }  
+    .intro img p{
+        display: inline-block;
+        justify-content: en;
+    } 
+    .intro img{
+        width: 30%;
+    }
+    .intro p{
+        width: 20vw;
+    }
+  }

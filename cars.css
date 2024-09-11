@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(67, 67, 67, 1);
+}
+main{
+    padding: 0;
+}
+
+
+
+/* Main Heading For All Pages */
+.title {
+    background-color: rgba(67, 67, 67, 1);
+    text-align: center;
+    padding-bottom: 7vh;
+
+}
+.title h1 {
+    margin-bottom: 5vh;
+    font-size: 9em;
+    color: rgba(205, 172, 116, 1);
+    font-family: koulen;
+}
+.title h2 {
+    margin-top: -10vh;
+    margin-bottom: 0;
+    font-size: 2.1em;
+    color: rgba(238, 199, 134, 1);      
+    font-family: koulen;
+}
+
+/* Style For NavBar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+} 
+.navbar li {
+    font-family: koulen;
+    display: flex;
+    background-color: gray;
+    float: left;
+    justify-content: center;
+    margin: 0.3em
+}
+.navbar li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
+}
+.intro {
+    background-color: rgba(217, 217, 217, 1);
+    padding: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    
+}
+.intro h1{
+    padding: 0.1em;
+    font-family: koulen;
+    font-size: 2.4em;  
+    padding-left: 4vw;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.intro img{
+    border-radius: 10%;
+    margin-left: 3vw;
+    width: 45vw;
+    margin-top: 1vh;
+}
+.intro p{
+    font-family: kosugi ;
+    font-size: 1em;
+    display: inline-block;
+    padding-left: 1em;
+    padding-bottom: 2em;
+    width: 90%;
+}
+.carstats{
+    background-color: darkgrey;
+}
+.carstats h1{
+    font-family: koulen;
+    font-size: 4em;
+    text-align: center;
+}
+.carstats h2{
+    padding-left: 4vw;
+    font-family: koulen;
+    font-size: 2.3em;
+}
+.carstats p{
+    font-family: kosugi;
+    font-size: 1em;
+    padding-left: 4vw;
+    width: 90%;
+}
+.carstats img{
+    width: 100%;
+}
+.carstats li{
+    text-align: center;
+}
+.rx7{
+    display: inline-block;
+}
+.rx7 img{
+    width: 49%;
+    padding-bottom: 3vh;
+}
+footer{
+    background-color:rgba(67, 67, 67, 1);
+}
+footer summary{
+    font-size: 1.5em;
+    font-family: kosugi;
+    color: rgb(182, 182, 182);
+    text-align: center;
+    padding: 1em;
+}
+footer details{
+    font-family: kosugi;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1em;
+    padding-bottom: 4vh;
+}
+@media only screen and (min-width: 1200px) {
+    /* Style For NavBar */
+    .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: center;
+    
+        
+    } 
+    .navbar li {
+        font-family: koulen;
+        display: flex;
+        background-color: gray;
+        float: left;
+        justify-content: center;
+        margin: 0.3em;
+    }
+    .navbar li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        
+    }   
+  }

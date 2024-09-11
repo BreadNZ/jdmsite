@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(67, 67, 67, 1);
+}
+main{
+    padding: 0;
+}
+
+
+
+/* Main Heading For All Pages */
+.title {
+    background-color: rgba(67, 67, 67, 1);
+    text-align: center;
+    padding-bottom: 7vh;
+
+}
+.title h1 {
+    margin-bottom: 5vh;
+    font-size: 9em;
+    color: rgba(205, 172, 116, 1);
+    font-family: koulen;
+}
+.title h2 {
+    margin-top: -10vh;
+    margin-bottom: 0;
+    font-size: 2.1em;
+    color: rgba(238, 199, 134, 1);      
+    font-family: koulen;
+}
+
+/* Style For NavBar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+} 
+.navbar li {
+    font-family: koulen;
+    display: flex;
+    background-color: gray;
+    float: left;
+    justify-content: center;
+    margin: 0.3em
+}
+.navbar li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
+}
+.intro {
+    background-color: rgba(217, 217, 217, 1);
+    padding: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    
+}
+.intro h1{
+    padding: 0.1em;
+    font-family: koulen;
+    font-size: 3em;  
+    padding-left: 4vw;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.intro img{
+    border-radius: 10%;
+    margin-left: 3vw;
+    width: 45vw;
+    margin-top: 1vh;
+}
+.intro p{
+    font-family: kosugi ;
+    font-size: 1em;
+    width: 10.2em;
+    display: inline-block;
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+.history{
+    background-color: rgba(184, 184, 184, 1);
+}
+.history h1{
+    font-family: koulen;
+    font-size: 2.8em;
+    padding: 0.4em;
+    padding-bottom: 0.1em;
+}
+.history p{
+    font-family: kosugi;
+    font-size: 1.3em;
+    padding: 1.2em;
+    padding-top: 0.5em;
+}
+.timeline{
+    background-color: rgba(217, 217, 217, 1);
+    padding-bottom: 6vh;
+}
+.timeline img{
+    max-width: 100%;
+    height: auto;
+}
+.timeline h1{
+    font-family: koulen;
+    font-size: 3em;
+    text-align: center;
+}
+.timeline h2{
+    font-family: koulen;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 0.7em;
+}
+.timeline h3{
+    padding: 2vw;
+    width: 3.5vw;
+    padding-right: 19vw;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: koulen;
+}
+.timeline p{
+    width: 60vw;
+    font-size: 1em;
+    font-family: kosugi;
+}
+.inline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.legacy{
+    background-color: rgba(199, 199, 199, 1);
+}
+.legacy h1{
+    font-family: koulen;
+    font-size: 2.5em;
+    text-align: center;
+}
+.legacy p{
+    font-family: kosugi;
+    font-size: 1em;
+    padding: 3vw;
+}
+footer{
+    background-color:rgba(67, 67, 67, 1);
+}
+footer summary{
+    font-size: 1.5em;
+    font-family: kosugi;
+    color: rgb(182, 182, 182);
+    text-align: center;
+    padding: 1em;
+}
+footer details{
+    font-family: kosugi;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1em;
+    padding-bottom: 4vh;
+}
+@media only screen and (min-width: 1200px) {
+    /* Style For NavBar */
+    .navbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: center;
+    
+        
+    } 
+    .navbar li {
+        font-family: koulen;
+        display: flex;
+        background-color: gray;
+        float: left;
+        justify-content: center;
+        margin: 0.3em;
+    }
+    .navbar li a {
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        
+    }
+    .intro img{
+        width: 60vh;
+        object-fit: scale-down;
+    }
+    .intro h1{
+        font-size: 8em;
+        width: 60vw;
+    }
+    .intro p{
+        font-size: 3.5em;
+        width: 55vw;
+        padding-left: 10vw;
+    }
+    .history h1{
+        padding: 0.5em;
+        font-size: 5em;
+    }
+    .history p{
+        font-size: 3em;
+    }
+    .timeline h1{
+        font-size: 7em;
+    }
+    .timeline h2 {
+        font-size: 4.8em;
+    }
+    .inline h3 {
+        font-size: 4em;
+    }
+    .inline p{
+        font-size: 3em;
+    }
+    .legacy h1{
+        font-size: 8em;
+    }
+    .legacy p{
+        font-size: 3em;
+        padding: 2em;
+    }
+
+
+    
+  }
